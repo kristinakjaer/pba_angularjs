@@ -1,0 +1,8 @@
+<h2>Name: {{country.name}}</h2>
+<ul>
+    <li>Population: {{country.population | number }}</li>
+    <li>Flag: <img ng-src="{{country.flagURL}}" width="20"></li>
+    <li>Capital: {{country.capital}}</li>
+    <li>GDP: {{country.gdp | currency: " DKK " }}</li>
+</ul>
+<a href="#/">Back</a>
